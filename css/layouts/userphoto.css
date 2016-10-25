@@ -1,0 +1,80 @@
+
+
+
+#adminmenu {
+    padding-top: 10px;
+    padding-top: 1em;
+    margin-top: 0px;
+}
+
+#adminmenu li.user_info {
+    text-align: center;
+}
+#adminmenu li.user_info div.wp-menu-image {
+	display: none;
+}
+#adminmenuwrap li.user_info img {
+	max-width: 100%;
+	height: auto;
+	margin:0 auto;
+	display:block;
+}
+#adminmenu li.user_info a:hover {
+	color: inherit;
+	background: inherit;
+	background-color: inherit;
+}
+
+
+/* Name & time */
+body.wp-admin #adminmenuwrap .user_info h2, body.wp-admin #adminmenuwrap .user_info h3 {
+	color: white;
+}
+
+
+
+.folded #adminmenu {
+		padding-top: 0px;
+		margin-top: 0px;
+	}
+.folded #adminmenu li.user_info .wp-menu-name {
+		position: relative;
+		left: initial;
+		padding-top: 0;
+	}
+.folded #adminmenu li.user_info .wp-menu-name h2 {
+		font-size: 10px;
+		font-size: .7em;
+	}
+.folded #adminmenu li.user_info .wp-menu-name h3 {
+	font-size: 12px;
+	font-size: .9em;
+	line-height: 120%;
+}
+.folded #adminmenuwrap li.user_info a {
+	padding: 0;
+}
+
+@media only screen and (max-width: 960px) {
+	.auto-fold #adminmenu {
+		padding-top: 0px;
+		margin-top: 0px;
+	}
+	.auto-fold #adminmenu li.user_info .wp-menu-name {
+		position: relative;
+		left: initial;
+		padding-top: 0;
+	}
+	.auto-fold #adminmenu li.user_info .wp-menu-name h2 {
+		font-size: 10px;
+		font-size: .7em;
+	}
+	.auto-fold #adminmenu li.user_info .wp-menu-name h3 {
+		font-size: 12px;
+		font-size: .9em;
+		line-height: 120%;
+	}
+	#adminmenuwrap li.user_info a {
+		padding: 0;
+	}
+}

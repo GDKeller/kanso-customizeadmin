@@ -1,0 +1,15 @@
+.admin-bar #wpadminbar {
+    top: 0;
+    right: initial;
+    left: 0;
+    width: auto;
+    min-width: 0;
+    background-color: rgba(0,0,0,0.4);
+}
+.admin-bar #wpadminbar .ab-top-secondary .menupop .ab-sub-wrapper {
+	right: auto;
+	left: 0;
+}
+.admin-bar #wpadminbar .admin-bar-search {
+	display: none;
+}

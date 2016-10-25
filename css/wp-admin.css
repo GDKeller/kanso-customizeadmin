@@ -1,0 +1,8 @@
+/*
+Part: Main Dashboard override styles
+
+*/
+
+#adminmenu li.wp-menu-separator {
+	border-top: 1px solid black;
+}

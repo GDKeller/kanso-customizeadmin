@@ -1,0 +1,27 @@
+/* imports go here */
+
+/*
+----------------------------
+    Admin Colors Option panel styles
+----------------------------
+*/
+
+/*-----------------------
+** Redux ads/notices/etc
+-----------------------*/
+.rAdsContainer {
+	display: none ! important;
+	visibility: none ! important;
+}
+.rAds {
+	display:none ! important;
+	visibility: hidden ! important;
+}
+/* Upgrade Notice nag */
+#redux_blast_1457948692 {
+	display: none;
+}
+/* Redux Dashboard widget */
+#redux_dashboard_widget {
+	display: none;
+}

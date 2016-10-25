@@ -1,0 +1,14 @@
+/*********
+* Part: Admin Color Theme - Red
+**********/
+
+/* Admin Menu */
+#adminmenuback {
+	background: #39424a;
+	background-image: url('../img/admin-red.jpg');
+    background-position: bottom right;
+    background-size: cover;
+}
+#adminmenuwrap, #adminmenu {			/* remove the background color */
+	background: none;
+}

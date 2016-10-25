@@ -1,0 +1,15 @@
+/*********
+* Part: Admin Color Theme - Gunmetal
+**********/
+
+/* Admin Menu */
+#adminmenuback {
+	background: #39424a;
+	background-image: url('../img/admin-gunmetal.jpg');
+    background-position: bottom right;
+    background-size: cover;
+}
+
+#adminmenuwrap, #adminmenu {			/* remove the background color */
+	background: none;
+}
